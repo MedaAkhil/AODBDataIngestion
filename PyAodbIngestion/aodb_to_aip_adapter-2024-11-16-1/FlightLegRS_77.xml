@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><yiapl:YIAPL_FlightLegRS xmlns:yiapl="yiapl.co.in/root/schema" xmlns:aidx="http://www.iata.org/IATA/2007/00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="yiapl.co.in/root/schema YIAPL_FlightLegRS.xsd ">
+    <yiapl:YIAPL_Header>
+        <yiapl:SequenceNumber>304</yiapl:SequenceNumber>
+        <yiapl:CorrelationID>3236</yiapl:CorrelationID>
+        <yiapl:SendingSystem>AODB</yiapl:SendingSystem>
+        <yiapl:DestinationSystem>AIP</yiapl:DestinationSystem>
+        <yiapl:MessageType>HLTH</yiapl:MessageType>
+        <yiapl:MessageSubType>HLOK</yiapl:MessageSubType>
+        <yiapl:OriginatorTimeStamp>2024-11-16T06:29:50.560Z</yiapl:OriginatorTimeStamp>
+    </yiapl:YIAPL_Header>
+    <aidx:IATA_AIDX_FlightLegRS Target="Production" Version="21.3">
+        <aidx:Success/>
+    </aidx:IATA_AIDX_FlightLegRS>
+</yiapl:YIAPL_FlightLegRS>
