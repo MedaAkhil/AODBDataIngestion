@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><yiapl:YIAPL_FlightLegNotifRQ xmlns:yiapl="yiapl.co.in/root/schema" xmlns:aidx="http://www.iata.org/IATA/2007/00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="yiapl.co.in/root/schema YIAPL_FlightLegNotifRQ.xsd">
+    <yiapl:YIAPL_Header>
+        <yiapl:SequenceNumber>128026</yiapl:SequenceNumber>
+        <yiapl:SendingSystem>AODB</yiapl:SendingSystem>
+        <yiapl:MessageType>FLTU</yiapl:MessageType>
+        <yiapl:MessageSubType>FCKI</yiapl:MessageSubType>
+        <yiapl:ServiceType>J</yiapl:ServiceType>
+        <yiapl:Terminal>T1</yiapl:Terminal>
+        <yiapl:OriginatorTimeStamp>2024-11-11T09:17:28.059Z</yiapl:OriginatorTimeStamp>
+    </yiapl:YIAPL_Header>
+    <aidx:IATA_AIDX_FlightLegNotifRQ Version="21.3">
+        <aidx:Originator Code="aero.sita" CompanyShortName="SITA"/>
+        <aidx:DeliveringSystem Code="ICAD.com" CompanyShortName="ICAD"/>
+        <aidx:FlightLeg>
+            <aidx:LegIdentifier>
+                <aidx:Airline CodeContext="3">6E</aidx:Airline>
+                <aidx:FlightNumber>1116</aidx:FlightNumber>
+                <aidx:DepartureAirport CodeContext="3">DXN</aidx:DepartureAirport>
+                <aidx:ArrivalAirport CodeContext="3">MAA</aidx:ArrivalAirport>
+                <aidx:OriginDate>2024-11-11</aidx:OriginDate>
+            </aidx:LegIdentifier>
+            <aidx:LegData>
+                <aidx:AirportResources Usage="Actual">
+                    <aidx:Resource DepartureOrArrival="Departure">
+                        <aidx:CheckInInfo Location="CHK" Qualifier="CHK" RepeatIndex="1">
+                            <aidx:FirstPosition>101</aidx:FirstPosition>
+                            <aidx:LastPosition>106</aidx:LastPosition>
+                        </aidx:CheckInInfo>
+                    </aidx:Resource>
+                </aidx:AirportResources>
+            </aidx:LegData>
+            <aidx:TPA_Extension>
+                <yiapl:AODBFlightID>DEP_2745374</yiapl:AODBFlightID>
+                <yiapl:CounterInformation RepeatIndex="1">
+                    <yiapl:Area>CK</yiapl:Area>
+                    <yiapl:CounterCode>101</yiapl:CounterCode>
+                    <yiapl:CounterStart>2024-11-10T18:30:00.000Z</yiapl:CounterStart>
+                    <yiapl:CounterEnd>2024-11-11T18:29:00.000Z</yiapl:CounterEnd>
+                    <yiapl:Terminal>T1</yiapl:Terminal>
+                    <yiapl:AirlineIATACode>6E</yiapl:AirlineIATACode>
+                    <yiapl:AirlinePaxGHA>6E</yiapl:AirlinePaxGHA>
+                </yiapl:CounterInformation>
+                <yiapl:CounterInformation RepeatIndex="2">
+                    <yiapl:Area>CK</yiapl:Area>
+                    <yiapl:CounterCode>102</yiapl:CounterCode>
+                    <yiapl:CounterStart>2024-11-10T18:30:00.000Z</yiapl:CounterStart>
+                    <yiapl:CounterEnd>2024-11-11T18:29:00.000Z</yiapl:CounterEnd>
+                    <yiapl:Terminal>T1</yiapl:Terminal>
+                    <yiapl:AirlineIATACode>6E</yiapl:AirlineIATACode>
+                    <yiapl:AirlinePaxGHA>6E</yiapl:AirlinePaxGHA>
+                </yiapl:CounterInformation>
+                <yiapl:CounterInformation RepeatIndex="3">
+                    <yiapl:Area>CK</yiapl:Area>
+                    <yiapl:CounterCode>103</yiapl:CounterCode>
+                    <yiapl:CounterStart>2024-11-10T18:30:00.000Z</yiapl:CounterStart>
+                    <yiapl:CounterEnd>2024-11-11T18:29:00.000Z</yiapl:CounterEnd>
+                    <yiapl:Terminal>T1</yiapl:Terminal>
+                    <yiapl:AirlineIATACode>6E</yiapl:AirlineIATACode>
+                    <yiapl:AirlinePaxGHA>6E</yiapl:AirlinePaxGHA>
+                </yiapl:CounterInformation>
+                <yiapl:CounterInformation RepeatIndex="4">
+                    <yiapl:Area>CK</yiapl:Area>
+                    <yiapl:CounterCode>104</yiapl:CounterCode>
+                    <yiapl:CounterStart>2024-11-10T18:30:00.000Z</yiapl:CounterStart>
+                    <yiapl:CounterEnd>2024-11-11T18:29:00.000Z</yiapl:CounterEnd>
+                    <yiapl:Terminal>T1</yiapl:Terminal>
+                    <yiapl:AirlineIATACode>6E</yiapl:AirlineIATACode>
+                    <yiapl:AirlinePaxGHA>6E</yiapl:AirlinePaxGHA>
+                </yiapl:CounterInformation>
+                <yiapl:CounterInformation RepeatIndex="5">
+                    <yiapl:Area>CK</yiapl:Area>
+                    <yiapl:CounterCode>105</yiapl:CounterCode>
+                    <yiapl:CounterStart>2024-11-10T18:30:00.000Z</yiapl:CounterStart>
+                    <yiapl:CounterEnd>2024-11-11T18:29:00.000Z</yiapl:CounterEnd>
+                    <yiapl:Terminal>T1</yiapl:Terminal>
+                    <yiapl:AirlineIATACode>6E</yiapl:AirlineIATACode>
+                    <yiapl:AirlinePaxGHA>6E</yiapl:AirlinePaxGHA>
+                </yiapl:CounterInformation>
+                <yiapl:CounterInformation RepeatIndex="6">
+                    <yiapl:Area>CK</yiapl:Area>
+                    <yiapl:CounterCode>106</yiapl:CounterCode>
+                    <yiapl:CounterStart>2024-11-10T18:30:00.000Z</yiapl:CounterStart>
+                    <yiapl:CounterEnd>2024-11-11T18:29:00.000Z</yiapl:CounterEnd>
+                    <yiapl:Terminal>T1</yiapl:Terminal>
+                    <yiapl:AirlineIATACode>6E</yiapl:AirlineIATACode>
+                    <yiapl:AirlinePaxGHA>6E</yiapl:AirlinePaxGHA>
+                </yiapl:CounterInformation>
+            </aidx:TPA_Extension>
+        </aidx:FlightLeg>
+    </aidx:IATA_AIDX_FlightLegNotifRQ>
+</yiapl:YIAPL_FlightLegNotifRQ>

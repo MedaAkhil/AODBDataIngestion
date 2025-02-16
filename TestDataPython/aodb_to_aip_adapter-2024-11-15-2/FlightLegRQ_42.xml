@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><yiapl:YIAPL_FlightLegRQ xmlns:yiapl="yiapl.co.in/root/schema" xmlns:aidx="http://www.iata.org/IATA/2007/00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="yiapl.co.in/root/schema YIAPL_FlightLegRQ.xsd">
+    <yiapl:YIAPL_Header>
+        <yiapl:SequenceNumber>3101</yiapl:SequenceNumber>
+        <yiapl:SendingSystem>AIP</yiapl:SendingSystem>
+        <yiapl:DestinationSystem>AODB</yiapl:DestinationSystem>
+        <yiapl:MessageType>HLTH</yiapl:MessageType>
+        <yiapl:MessageSubType>HLCK</yiapl:MessageSubType>
+        <yiapl:OriginatorTimeStamp>2024-11-15T09:34:30.944Z</yiapl:OriginatorTimeStamp>
+    </yiapl:YIAPL_Header>
+    <aidx:IATA_AIDX_FlightLegRQ Target="Production" Version="21.3"/>
+</yiapl:YIAPL_FlightLegRQ>
